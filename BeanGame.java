@@ -1,17 +1,9 @@
 //U10416005ªL«Ø¦t
 
+//import javafx methods
 import javafx.application.Application;
-import javafx.geometry.HPos;
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.scene.shape.Circle;
@@ -19,6 +11,7 @@ import javafx.scene.shape.Line;
 
 public class BeanGame extends Application{
 	@Override
+	//main method for scene
 	public void start(Stage primaryStage){
 		Scene scene = new Scene(new LinePane(),200,200);
 		primaryStage.setTitle("BeanGame");
@@ -27,8 +20,10 @@ public class BeanGame extends Application{
 	}
 }
 
+//class for BeanGame
 class LinePane extends Pane{
 	public LinePane(){
+		//two lines for border
 		Line line1 = new Line(120,0,200,200);
 		line1.setStrokeWidth(1);
 		line1.setStroke(Color.BLACK);
@@ -40,7 +35,7 @@ class LinePane extends Pane{
 		getChildren().add(line2);
 		
 		
-		
+		//thirty-six circle(dot) for block
 		Circle circle1 = new Circle();
 		circle1.setCenterX(100);
 		circle1.setCenterY(5);
@@ -348,7 +343,7 @@ class LinePane extends Pane{
 		circle36.setFill(Color.BLACK);
 		getChildren().add(circle36);
 		
-		
+		//eight lines for local blocks
 		Line line3 = new Line(30,145,30,200);
 		line3.setStrokeWidth(4);
 		line1.setStroke(Color.BLACK);
@@ -390,7 +385,7 @@ class LinePane extends Pane{
 		getChildren().add(line10);
 		
 		
-		
+		//ten lines for underlines and have different colors
 		Line line11 = new Line(0,200,30,200);
 		line11.setStrokeWidth(6);
 		line11.setStroke(Color.RED);
