@@ -388,5 +388,52 @@ class LinePane extends Pane{
 		line10.setStrokeWidth(4);
 		line10.setStroke(Color.BLACK);
 		getChildren().add(line10);
+		
+		
+		
+		Line line11 = new Line(0,200,30,200);
+		line11.setStrokeWidth(6);
+		line11.setStroke(Color.RED);
+		getChildren().add(line11);
+		
+		Line line12 = new Line(30,200,50,200);
+		line12.setStrokeWidth(6);
+		line12.setStroke(Color.BEIGE);
+		getChildren().add(line12);
+		
+		Line line13 = new Line(50,200,70,200);
+		line13.setStrokeWidth(6);
+		line13.setStroke(Color.BLUE);
+		getChildren().add(line13);
+		
+		Line line14 = new Line(70,200,90,200);
+		line14.setStrokeWidth(6);
+		line14.setStroke(Color.BROWN);
+		getChildren().add(line14);
+		
+		Line line15 = new Line(90,200,110,200);
+		line15.setStrokeWidth(6);
+		line15.setStroke(Color.CYAN);
+		getChildren().add(line15);
+		
+		Line line16 = new Line(110,200,130,200);
+		line16.setStrokeWidth(6);
+		line16.setStroke(Color.GREEN);
+		getChildren().add(line16);
+		
+		Line line17 = new Line(130,200,150,200);
+		line17.setStrokeWidth(6);
+		line17.setStroke(Color.GRAY);
+		getChildren().add(line17);
+		
+		Line line18 = new Line(150,200,170,200);
+		line18.setStrokeWidth(6);
+		line18.setStroke(Color.MAGENTA);
+		getChildren().add(line18);
+		
+		Line line19 = new Line(170,200,200,200);
+		line19.setStrokeWidth(6);
+		line19.setStroke(Color.GOLD);
+		getChildren().add(line19);
 	}
 }
