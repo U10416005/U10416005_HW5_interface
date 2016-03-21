@@ -349,159 +349,44 @@ class LinePane extends Pane{
 		getChildren().add(circle36);
 		
 		
+		Line line3 = new Line(30,145,30,200);
+		line3.setStrokeWidth(4);
+		line1.setStroke(Color.BLACK);
+		getChildren().add(line3);
 		
-		Circle circle37 = new Circle();
-		circle37.setCenterX(20);
-		circle37.setCenterY(165);
-		circle37.setRadius(4);
-		circle37.setStroke(Color.BLACK);
-		circle37.setFill(Color.BLACK);
-		getChildren().add(circle37);
+		Line line4 = new Line(50,145,50,200);
+		line4.setStrokeWidth(4);
+		line4.setStroke(Color.BLACK);
+		getChildren().add(line4);
 		
-		Circle circle38 = new Circle();
-		circle38.setCenterX(40);
-		circle38.setCenterY(165);
-		circle38.setRadius(4);
-		circle38.setStroke(Color.BLACK);
-		circle38.setFill(Color.BLACK);
-		getChildren().add(circle38);
+		Line line5 = new Line(70,145,70,200);
+		line5.setStrokeWidth(4);
+		line5.setStroke(Color.BLACK);
+		getChildren().add(line5);
 		
-		Circle circle39 = new Circle();
-		circle39.setCenterX(60);
-		circle39.setCenterY(165);
-		circle39.setRadius(4);
-		circle39.setStroke(Color.BLACK);
-		circle39.setFill(Color.BLACK);
-		getChildren().add(circle39);
+		Line line6 = new Line(90,145,90,200);
+		line6.setStrokeWidth(4);
+		line6.setStroke(Color.BLACK);
+		getChildren().add(line6);
 		
-		Circle circle40 = new Circle();
-		circle40.setCenterX(80);
-		circle40.setCenterY(165);
-		circle40.setRadius(4);
-		circle40.setStroke(Color.BLACK);
-		circle40.setFill(Color.BLACK);
-		getChildren().add(circle40);
+		Line line7 = new Line(110,145,110,200);
+		line7.setStrokeWidth(4);
+		line7.setStroke(Color.BLACK);
+		getChildren().add(line7);
 		
-		Circle circle41 = new Circle();
-		circle41.setCenterX(100);
-		circle41.setCenterY(165);
-		circle41.setRadius(4);
-		circle41.setStroke(Color.BLACK);
-		circle41.setFill(Color.BLACK);
-		getChildren().add(circle41);
+		Line line8 = new Line(130,145,130,200);
+		line8.setStrokeWidth(4);
+		line8.setStroke(Color.BLACK);
+		getChildren().add(line8);
 		
-		Circle circle42 = new Circle();
-		circle42.setCenterX(120);
-		circle42.setCenterY(165);
-		circle42.setRadius(4);
-		circle42.setStroke(Color.BLACK);
-		circle42.setFill(Color.BLACK);
-		getChildren().add(circle42);
+		Line line9 = new Line(150,145,150,200);
+		line9.setStrokeWidth(4);
+		line9.setStroke(Color.BLACK);
+		getChildren().add(line9);
 		
-		Circle circle43 = new Circle();
-		circle43.setCenterX(140);
-		circle43.setCenterY(165);
-		circle43.setRadius(4);
-		circle43.setStroke(Color.BLACK);
-		circle43.setFill(Color.BLACK);
-		getChildren().add(circle43);
-		
-		Circle circle44 = new Circle();
-		circle44.setCenterX(160);
-		circle44.setCenterY(165);
-		circle44.setRadius(4);
-		circle44.setStroke(Color.BLACK);
-		circle44.setFill(Color.BLACK);
-		getChildren().add(circle44);
-		
-		Circle circle45 = new Circle();
-		circle45.setCenterX(180);
-		circle45.setCenterY(165);
-		circle45.setRadius(4);
-		circle45.setStroke(Color.BLACK);
-		circle45.setFill(Color.BLACK);
-		getChildren().add(circle45);
-		
-		
-		
-		Circle circle46 = new Circle();
-		circle46.setCenterX(10);
-		circle46.setCenterY(185);
-		circle46.setRadius(4);
-		circle46.setStroke(Color.BLACK);
-		circle46.setFill(Color.BLACK);
-		getChildren().add(circle46);
-		
-		Circle circle47 = new Circle();
-		circle47.setCenterX(30);
-		circle47.setCenterY(185);
-		circle47.setRadius(4);
-		circle47.setStroke(Color.BLACK);
-		circle47.setFill(Color.BLACK);
-		getChildren().add(circle47);
-		
-		Circle circle48 = new Circle();
-		circle48.setCenterX(50);
-		circle48.setCenterY(185);
-		circle48.setRadius(4);
-		circle48.setStroke(Color.BLACK);
-		circle48.setFill(Color.BLACK);
-		getChildren().add(circle48);
-		
-		Circle circle49 = new Circle();
-		circle49.setCenterX(70);
-		circle49.setCenterY(185);
-		circle49.setRadius(4);
-		circle49.setStroke(Color.BLACK);
-		circle49.setFill(Color.BLACK);
-		getChildren().add(circle49);
-		
-		Circle circle50 = new Circle();
-		circle50.setCenterX(90);
-		circle50.setCenterY(185);
-		circle50.setRadius(4);
-		circle50.setStroke(Color.BLACK);
-		circle50.setFill(Color.BLACK);
-		getChildren().add(circle50);
-		
-		Circle circle51 = new Circle();
-		circle51.setCenterX(110);
-		circle51.setCenterY(185);
-		circle51.setRadius(4);
-		circle51.setStroke(Color.BLACK);
-		circle51.setFill(Color.BLACK);
-		getChildren().add(circle51);
-		
-		Circle circle52 = new Circle();
-		circle52.setCenterX(130);
-		circle52.setCenterY(185);
-		circle52.setRadius(4);
-		circle52.setStroke(Color.BLACK);
-		circle52.setFill(Color.BLACK);
-		getChildren().add(circle52);
-		
-		Circle circle53 = new Circle();
-		circle53.setCenterX(150);
-		circle53.setCenterY(185);
-		circle53.setRadius(4);
-		circle53.setStroke(Color.BLACK);
-		circle53.setFill(Color.BLACK);
-		getChildren().add(circle53);
-		
-		Circle circle54 = new Circle();
-		circle54.setCenterX(170);
-		circle54.setCenterY(185);
-		circle54.setRadius(4);
-		circle54.setStroke(Color.BLACK);
-		circle54.setFill(Color.BLACK);
-		getChildren().add(circle54);
-		
-		Circle circle55 = new Circle();
-		circle55.setCenterX(190);
-		circle55.setCenterY(185);
-		circle55.setRadius(4);
-		circle55.setStroke(Color.BLACK);
-		circle55.setFill(Color.BLACK);
-		getChildren().add(circle55);
+		Line line10 = new Line(170,145,170,200);
+		line10.setStrokeWidth(4);
+		line10.setStroke(Color.BLACK);
+		getChildren().add(line10);
 	}
 }
